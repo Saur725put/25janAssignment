@@ -1,0 +1,11 @@
+Q1
+#include <iostream>
+using namespace std;
+int main(){
+	char ch;
+	cout<<"Enter character :";
+	cin>>ch;
+	int a = static_cast<int>(ch);
+	cout << "Original ch  value: " << ch << endl;
+	cout<< " interger value is :"<<a;
+}
